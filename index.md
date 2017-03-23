@@ -2,7 +2,9 @@
 layout: default
 title: Welcome 
 navigation_weight: 1
+comments: true
 ---
+
 ## UNDERSTANDING CLASS BASED VIEWS IN DJANGO
 We often find that Django developers especially those new to the framework and even some advanced users prefer to use function based views (FBVs) for most projects. This can be attributed firstly to the simplicity of 
 using FBVs and a lack of understanding of the great benefits of using Class Based Views.(CBV)
