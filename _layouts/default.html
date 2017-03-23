@@ -10,7 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
-    <title>{{ site.title | default: site.github.repository_name }} | Ezechukwu James</title>
+    <title>{{ site.title | default: site.github.repository_name }}</title>
   </head>
 
   <body>
@@ -18,21 +18,13 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner text-center">
-          <h1 id="project_title text-center">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline text-center">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h1 id="project_title text-center text-success">{{ site.title | default: site.github.repository_name }}</h1>
+          <h4 id="project_tagline text-center">{{ site.description | default: site.github.project_tagline }}</h4>
           
-          <nav class="main-nav bg-success">
+          <nav class="main-nav">
             <ul>
-              {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-              {% for p in navigation_pages %}
-                {% if p.navigation_weight %}
-                  <li style="display: block">
-                    <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                      {{ p.title }}
-                    </a>
-                  </li>
-                {% endif %}
-              {% endfor %}
+              <li style="display:block;"><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+              <li style="display:block;"><a href="/about.md" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
             </ul>
           </nav>
           <div>
@@ -40,7 +32,6 @@
             <span><a href="https://www.linkedin.com/in/ezechukwujames/" title="find me on linkedin"><i class="fa fa-linkedin"></i></a></span> &nbsp; &nbsp;
             <span><a href="https://github.com/ezechukwuji"><i class="fa fa-github" title="follow me on github"></i></a></span> &nbsp; &nbsp;
           </div>
-          
         </header>
     </div>
 
