@@ -16,17 +16,17 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    <div id="header_wrap" class="outer" style="background-image: url('/assets/static/background.png');">
         <header class="inner text-center" >
           <div class="text-center" >
-            <img src="/assets/james.png" style="padding:2px; background-color:#333333; width:95px; height:95px; margin:2px; border-radius:50%; border:2px solid #ffffff; box-shadow: 2px 2px #333333;" alt="James E"/> 
+            <img src="/assets/static/james.png" style="padding:2px; background-color:#333333; width:105px; height:105px; margin:2px; border-radius:50%; border:2px solid #ffffff; box-shadow: 2px 2px #333333;" alt="James E"/> 
           </div>
           <h1 style="color:#ffffff !important; text-shadow: 1px 1px #222222; font-weight:bold;">{{ site.title | default: site.github.repository_name }}</h1>
           <h4 style="color:#ffffff !important; text-shadow: 1px 1px #222222;">{{ site.description | default: site.github.project_tagline }}</h4>
        
           <div class="text-center">
             <span><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></span> &nbsp; &nbsp;
-            <span><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
+            <span><a href="/about" {% if page.url == '/about' %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
             <span><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>Contact</a></span> &nbsp; &nbsp;
           </div>
           <p> &nbsp; </p>
