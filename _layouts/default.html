@@ -17,11 +17,11 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title text-center text-success" class="heading">{{ site.title | default: site.github.repository_name }}</h1>
-          <h4 id="project_tagline text-center" class="title">{{ site.description | default: site.github.project_tagline }}</h4>
+        <header class="inner" style="background-color:#efffff;">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h4 class="sub-heading">{{ site.description | default: site.github.project_tagline }}</h4>
          
-          <div>
+          <div class="text-center">
             <span><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></span> &nbsp; &nbsp;
             <span><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
             <span><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
