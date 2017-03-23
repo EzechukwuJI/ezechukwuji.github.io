@@ -1,10 +1,13 @@
 ---
-layout:post
-title:understanding Django class based views
+layout: default
+title: understanding django class based view
+navigation_weight: 3
+comments: true
 ---
-## UNDERSTANDING CLASS BASED VIEWS IN DJANGO
-![post banner]({{ site.url }}/assets/django cbv.png)
 
+![image](/assets/posts/djangocbv.png)
+
+## UNDERSTANDING CLASS BASED VIEWS IN DJANGO
 We often find that Django developers especially those new to the framework and even some advanced users prefer to use function based views (FBVs) for most projects. This can be attributed firstly to the simplicity of 
 using FBVs and a lack of understanding of the great benefits of using Class Based Views.(CBV)
 In this post I will highlight some of the major benefits and the cool features of CBV. This post will also attempt to simplify some of the most misunderstood concepts of CBV. We will look at cases where CBVs are preferrable to FBvs
@@ -150,6 +153,3 @@ Multiple decorators can also be passed to a CBV as below
 So, In your next Django project try to explore the goodness of CBVs. You'll be glad you did.
 
 **Happy Coding**!
-
-
-
