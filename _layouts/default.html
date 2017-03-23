@@ -41,16 +41,6 @@
     <!-- MAIN CONTENT -->
     
     <div id="main_content_wrap" class="outer">
-      <div>
-        <ul>
-          {% for post in site.posts %}
-            <li>{{ forloop.counter }} &nbsp;
-              <a href="{{ post.url }}">{{ post.title }}</a>
-              {{ post.excerpt }}
-            </li>
-          {% endfor %}
-        </ul>
-    </div>
       <section id="main_content" class="inner">
         {{ content }}
       </section>
