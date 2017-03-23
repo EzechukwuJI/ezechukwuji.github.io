@@ -16,14 +16,14 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer" style="background-color:#efffff !important;">
+    <div id="header_wrap" class="outer">
         <header class="inner text-center" >
-          <div class="text-center" style="margin:5px;">
-            <img src="{{ site.url }}/assets/passport.png" class="thumbnail" style="width:115px; height:115px; border-radius:50%; border:2px solid #ffffff; box-shadow: 2px 2px #333333;" alt="James E"/> 
+          <div class="text-center">
+            <img src="{{ site.url }}/assets/passport.png" class="thumbnail" style="width:105px; height:105px; margin:2px; border-radius:50%; border:2px solid #ffffff; box-shadow: 2px 2px #333333;" alt="James E"/> 
           </div>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <h4 class="sub-heading">{{ site.description | default: site.github.project_tagline }}</h4>
-         
+          <h1 style="color:#ffffff !important; text-shadow: 1px 1px #222222; font-weight:bold;">{{ site.title | default: site.github.repository_name }}</h1>
+          <h4 style="color:#ffffff !important; text-shadow: 1px 1px #222222;">{{ site.description | default: site.github.project_tagline }}</h4>
+          <br/>
           <div class="text-center">
             <span><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></span> &nbsp; &nbsp;
             <span><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
