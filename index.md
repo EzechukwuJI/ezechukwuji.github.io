@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Welcome 
+navigation_weight: 1
 ---
 ## UNDERSTANDING CLASS BASED VIEWS IN DJANGO
 We often find that Django developers especially those new to the framework and even some advanced users prefer to use function based views (FBVs) for most projects. This can be attributed firstly to the simplicity of 
