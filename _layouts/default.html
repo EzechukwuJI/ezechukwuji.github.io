@@ -17,22 +17,16 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner text-center">
-          <h1 id="project_title text-center text-success">{{ site.title | default: site.github.repository_name }}</h1>
-          <h4 id="project_tagline text-center">{{ site.description | default: site.github.project_tagline }}</h4>
-          
-<!--           <nav class="main-nav">
-            <ul>
-              <li style="display:block;"><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-              <li style="display:block;"><a href="/about.md" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
-            </ul>
-          </nav> -->
-          
+        <header class="inner">
+          <h1 id="project_title text-center text-success" class="heading">{{ site.title | default: site.github.repository_name }}</h1>
+          <h4 id="project_tagline text-center" class="title">{{ site.description | default: site.github.project_tagline }}</h4>
+         
           <div>
             <span><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></span> &nbsp; &nbsp;
-            <span><a href="/about-me.md" {% if page.url == "/about" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
+            <span><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
+            <span><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>About</a></span> &nbsp; &nbsp;
           </div>
-          
+          <p> &nbsp; </p>
           <div>
             <span><a href="https://twitter.com/ezechukwuji" title="follow me on twitter"><i class="fa fa-twitter"></i></a></span> &nbsp; &nbsp;
             <span><a href="https://www.linkedin.com/in/ezechukwujames/" title="find me on linkedin"><i class="fa fa-linkedin"></i></a></span> &nbsp; &nbsp;
