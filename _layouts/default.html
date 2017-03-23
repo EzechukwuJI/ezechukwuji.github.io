@@ -44,7 +44,11 @@
         {{ content }}
       </section>
       <section>
-        {% include comments.html %}
+        <div class="outer">
+          <div class="inner">
+             {% include comments.html %}
+          </div>
+        </div>
       </section>
     </div>
     
