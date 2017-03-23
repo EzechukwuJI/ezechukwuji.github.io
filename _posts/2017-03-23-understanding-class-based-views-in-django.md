@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blogpost
 title: understanding django class based view
 navigation_weight: 3
 comments: true
