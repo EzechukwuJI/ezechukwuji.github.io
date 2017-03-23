@@ -55,13 +55,20 @@
       </div>
       <!--      RIGHT POST INDEX  -->
       <div class="col-md-3">
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+        <div class="panel">
+          <div class="panel-heading">
+            Recent Posts
+          </div>
+          <div class="panel-body">
+            <ul>
+              {% for post in site.posts %}
+                <li>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     
