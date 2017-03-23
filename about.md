@@ -1,5 +1,6 @@
 ---
 layout: default
 title: about me
+navigation_weight: 2
 ---
-this section of the site talks about James
+about me here
