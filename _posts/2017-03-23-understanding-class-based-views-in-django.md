@@ -30,6 +30,7 @@ The `as_view()` method then calls the `dispatch()` method which in turn calls th
                                          |     |     |      | and so on.
                                          v     v     v      v
                                         get   post  head   put
+					
 Base class attributes can be overriden in child class as with the standard Python approach. Alternatively, the new attribute can be passed as an argument to the `as_view()` method of the CBV 
 
 Example: In base class we have 
