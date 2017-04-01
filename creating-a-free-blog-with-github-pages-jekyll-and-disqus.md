@@ -1,0 +1,1 @@
+As a developer, one of the ways you can showcase your abilities and enhance your learning processes is by sharing your thoughts and documenting your processes as you make new discoveries in your career.
