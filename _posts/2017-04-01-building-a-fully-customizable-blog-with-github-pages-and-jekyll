@@ -1,7 +1,6 @@
 ---
 layout: blogpost
-title: Building a personal blog with github pages and jekyll
-hidden: true
+title: Building a personal blog with github pages and jekyll and disqus
 comments: true
 ---
 
