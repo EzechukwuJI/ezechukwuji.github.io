@@ -5,11 +5,21 @@ navigation_weight: 1
 comments: true
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <section>
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <br/>
+        <span>
+          {{ post.excerpts|truncate_word:35 }}
+        </span>
+      </div>
+    </div>
+  </section>
+{% endfor %}
 
