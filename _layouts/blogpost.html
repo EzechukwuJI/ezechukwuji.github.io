@@ -39,7 +39,7 @@
       <!--  POST BODY      -->
       <div class="col-md-7">
         <div id="main_content_wrap" class="outer">
-          <section id="main_content" class="inner" style="width:100% !important; font-size:13; font-face:calibri;">
+          <section id="main_content" class="inner" style="width:100% !important; font-size:15; font-face:calibri;">
             {{ content }}
           </section>
           <p> &nbsp; </p>
@@ -56,14 +56,14 @@
       <!--      RIGHT POST INDEX  -->
       <div class="col-md-3">
         <p> &nbsp; </p>
-        <div class="panel panel-default"  style="margin-right:3px;">
+        <div class=""  style="margin-right:3px;">
           <div class="panel-heading">
             Recent Posts
           </div>
           <div class="panel-body">
             <ul>
               {% for post in site.posts %}
-                <li style="padding:3px; margin-bottom:3px;">
+                <li style="padding:5px; margin-bottom:3px; list-style-type:none;">
                   <a href="{{ post.url }}" style="font-size:13px; font-face:calibri;">{{ post.title }}</a>
                 </li>
               {% endfor %}
