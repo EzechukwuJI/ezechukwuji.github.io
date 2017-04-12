@@ -7,7 +7,7 @@ navigation_weight: 2
 I am James Ezechukwu, a backend developer from Nigeria. I love building awesome things with Python using the Django framework, with a penchant for usability, scalabilit, maintenability  and performance,
 
 ### Story and experience
-I am a Civil Engineer turned programmer and this switch has remained the best decision I've made in my adult life after falling in love with egusi soup( I'm sure you'll love it).
+I am a Civil Engineer turned programmer and this switch has remained the best decision I've made in my adult life after falling in love with [egusi soup](https://www.google.com.ng/search?q=egusi+soup&oq=egusi&aqs=chrome.0.69i59j69i57j0l4.2169j0j7&sourceid=chrome&ie=UTF-8) - I'm sure you'll love it.
 
 I'm predominantly a Python developer and have written some awesome scripts that power sites like [smatpost,](http://smatpost.com/) [sokohali,](http://www.sokohali.com/) [EasyPR Nigeria](http://www.easypr.ng/) - Africa's foremost press distribution and syndication platform. 
 I also tinker around some interesting cross-platform mobile development with C# and Xamarin, working towards mastery.
