@@ -19,4 +19,4 @@ I also write stuff on [Twitter](https://twitter.com/ezechukwuji) and throw some 
 ### About this site
 
 Built with [Jekyll](https://jekyllrb.com/) and hosted by [GitHub Pages](https://pages.github.com/).
-[Ezechukwu James](https://ezechukwuji.github.io)
+
