@@ -16,9 +16,9 @@ Enough introduction already. Let's get started.
 ### Setting up Github Page
 To set up a github page you need an [github](https://github.com/) account(Surprised?).
 Log into your github account, click on the Plus sign on the top right hand corner to pull down the menu as shown in the diagram below
-![create new repository](/ assets / static / post_images / create_new_repo.PNG)
+![create new repository](/assets/static/post_images/create_new_repo.PNG)
 create a new repository as below, your repository name should be of the form *username.github.io*. This is where your website is generated from. 
-![create site repository]( / assets / static / post_images / create_page_repo.PNG )
+![create site repository](/assets/static/post_images/create_page_repo.PNG)
 
 
 
