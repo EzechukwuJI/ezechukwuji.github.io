@@ -30,7 +30,7 @@ Next, click on the newly created repository, on the next page click on settings 
 On the settings page, scroll to the github pages section. Everything is set for you, you only need to set the theme for your website.
 by clicking on the **choose aa theme** button.
 
-![select theme](/assets/static/post_images/pages section.png)
+![select theme page](/assets/static/post_images/pages section.png)
 
 Clicking the button takes you to the theme chooser. Click on any of the thumbnails to preview theme. Click the **select theme** button to automatically add theme to your website.
 
@@ -45,7 +45,10 @@ While I was setting up this website, I found [this](https://jekyllrb.com/docs/pa
 
 #### Customizing Layouts
 
-You can style your layout to any design of your choice. 
+You can style your layout(s) to any design of your choice. For this website I a few inline CSS as shown in the image below, to achieve a little aesthetics. You can also write custom style sheet and include it in the header section of your layout file.
+![code snippet](/assets/static/post_images/snippet.png)
+
+
 
 
 
