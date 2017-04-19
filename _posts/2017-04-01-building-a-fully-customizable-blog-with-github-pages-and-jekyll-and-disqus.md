@@ -28,8 +28,24 @@ Next, click on the newly created repository, on the next page click on settings 
 ![go to settings](/assets/static/post_images/open_settings.png)
 
 On the settings page, scroll to the github pages section. Everything is set for you, you only need to set the theme for your website.
+by clicking on the **choose aa theme** button.
 
 ![select theme](/assets/static/post_images/pages section.png)
+
+Clicking the button takes you to the theme chooser. Click on any of the thumbnails to preview theme. Click the **select theme** button to automatically add theme to your website.
+
+![select theme](/assets/static/post_images/select theme.png)
+
+After this, your blog is ready to fly.
+Next Navigate to your github pages repository and make your first post to your blog.
+
+### Blogging with Jekyll
+
+While I was setting up this website, I found [this](https://jekyllrb.com/docs/pages/) article on the Jekyll website very helpful. This link provides a guide on how to add pages to your site, create layouts for different pages of your site, how to create a structured post, liquid template syntax, creating navigations and many more.
+
+#### Customizing Layouts
+
+You can style your layout to any design of your choice. 
 
 
 
