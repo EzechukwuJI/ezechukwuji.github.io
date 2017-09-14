@@ -1,3 +1,9 @@
+---
+layout: blogpost
+title: How To Create A Simple Counter Using Javascript, HTML & CSS
+comments: true
+---
+
 So I was a little bored and decided to play around with Javascript. The idea was to create something like the counter on [this page](https://www.greencirclesalons.ca/) using javascript, HTML and a little CSS; using a different layout. I guess it looks nice, right?. 
 I figured someone might find this useful so I decided to share the snippet here.
 The final output is as shown in the image above and increments from the left.
